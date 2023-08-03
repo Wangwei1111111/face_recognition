@@ -1,6 +1,7 @@
 # face_recognition
 face recognition based on FaceNet
-
+<br>
+<br>
 ## 使用开源facenet模型
 
 （https://github.com/davidsandberg/facenet）
@@ -25,22 +26,24 @@ train_tripletloss.py
 
 ### 目录：  
 
-    /src：算法实现  
+/src：算法实现  
     
-    /contributed：现成的一些功能
+/contributed：现成的一些功能  
 
 ### /src/  
 
-    compare.py：输入模型和多张图片，进行裁剪、识别、计算特征向量。输出不同人脸之间的欧氏距离。
+compare.py：输入模型和多张图片，进行裁剪、识别、计算特征向量。输出不同人脸之间的欧氏距离。  
+
 
 ### /contributed/  
 
-    predict.py：使用mtcnn进行人脸检测并对齐与裁剪；对裁剪的人脸使用facenet进行embedding；执行predict.py进行人脸识别（需要训练好的svm模型）  
+predict.py：使用mtcnn进行人脸检测并对齐与裁剪；对裁剪的人脸使用facenet进行embedding；执行predict.py进行人脸识别（需要训练好的svm模型）  
     
-    cluster.py：使用mtcnn进行人脸检测并对齐与裁剪；对裁剪的人脸使用facenet进行embedding；对embedding的特征向量使用欧式距离进行聚类  
+cluster.py：使用mtcnn进行人脸检测并对齐与裁剪；对裁剪的人脸使用facenet进行embedding；对embedding的特征向量使用欧式距离进行聚类  
     
-    real_time_face_recognition.py：开启摄像头，捕获帧，调用face.py识别人脸、计算特征向量，找到匹配的标签，在视频中显示（需要训练好的svm模型）  
-
+real_time_face_recognition.py：开启摄像头，捕获帧，调用face.py识别人脸、计算特征向量，找到匹配的标签，在视频中显示（需要训练好的svm模型）  
+<br>
+<br>
 ## Myface 人脸识别验证  
 
 ### 功能：  
@@ -79,6 +82,9 @@ Python3.6，tensorflow-gpu1.7，cuda9，cudnn7
 其他在requirements.txt中，可以使用`pip install -r requirements.txt`安装  
 
 注：使用官方基于VGGFace2的预训练模型20180402-114759（https://drive.google.com/file/d/1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-/view），加载模型加载.pb文件  
-
-智慧岛 平潭 2023.08  
+<br>
+<br>
+<br>
+<br>
+智慧岛  平潭  2023.08  
 小鸡蛋
