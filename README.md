@@ -11,7 +11,7 @@ face recognition based on FaceNet
      
 * 2. 对特征向量进行L2正则化，筛选出有效特征；
      
-* 3. 使用正则化后的特征向量，计算**Triplets Loss**。  
+* 3. 使用正则化后的特征向量，计算***Triplets Loss***。  
 
 ### 训练：  
 
@@ -19,7 +19,7 @@ train_tripletloss.py
 
 ### 验证数据集：  
 
-使用LFW人脸比对数据集验证（http://vis-www.cs.umass.edu/lfw/index.html#download）下载173MB那个  
+使用[LFW人脸比对数据集](http://vis-www.cs.umass.edu/lfw/index.html#download)验证，下载173MB那个  
 
 * 1. 使用align_dataset_mtcnn.py裁剪、对齐、标记人脸，裁剪成160尺寸
 * 2. 使用validate_on_lfw.py验证，输出精度
@@ -81,7 +81,7 @@ Python3.6，tensorflow-gpu1.7，cuda9，cudnn7
 
 其他在requirements.txt中，可以使用`pip install -r requirements.txt`安装  
 
-注：使用官方基于VGGFace2的预训练模型20180402-114759（https://drive.google.com/file/d/1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-/view），加载模型加载.pb文件  
+注：使用官方基于VGGFace2的预训练模型[20180402-114759](https://drive.google.com/file/d/1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-/view)，加载模型加载.pb文件  
 <br>
 <br>
 <br>
