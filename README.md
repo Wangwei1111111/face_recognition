@@ -86,5 +86,5 @@ Python3.6，tensorflow-gpu1.7，cuda9，cudnn7
 <br>
 <br>
 <br>
-智慧岛  平潭  2023.08  
+ZHD  PT  2023.08  
 小鸡蛋
