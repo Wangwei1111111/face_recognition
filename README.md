@@ -4,7 +4,7 @@ face recognition based on FaceNet
 <br>
 ## 使用开源facenet模型
 
-（https://github.com/davidsandberg/facenet）
+https://github.com/davidsandberg/facenet
 
 ### facenet原理：    
 * 1. 将图像通过深度卷积神经网络映射到128维的特征空间（欧式空间）中，得到对应的128维特征向量；
